@@ -8,7 +8,5 @@ function require() {
 require slither
 
 
-
-
 # Run from inside `tools` so that the slither config files can live there
 cd tools && slither ../ "$@"
